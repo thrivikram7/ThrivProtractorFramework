@@ -29,4 +29,16 @@ actual : it('subtraction test', function () {}
 Excpected To disable: xit('subtraction test', function () {}
 
 9) To see hidden folders on mac press (cmd+shift+.)
-10)
+10) Creating Screen shots in Protractor 
+npm install protractor-jasmine2-screenshot-reporter --save-dev
+11) Allure reporter 
+https://www.npmjs.com/package/allure-commandline
+Install allure 
+npm i jasmine-allure-reporter
+for all users
+npm i -g jasmine-allure-reporter
+12) Allure commandline tool to read the Allure XML report 
+the below command starts allure server and creates HTML report in temp directory
+allure serve /Users/TKRPRASAD/Documents/Workspace/Thriv_Protractor_JasmineTest/allure-results
+to generate reports in a particular path give -o flag and path as below
+allure serve /Users/TKRPRASAD/Documents/Workspace/Thriv_Protractor_JasmineTest/allure-results -o /Users/TKRPRASAD/Documents/Workspace/Thriv_Protractor_JasmineTest/allure-results
